@@ -4,24 +4,24 @@ public class Class1
 {
     public Class1()
     {
-        private int contador;
+        private int valor;
     
 
-        public Contador()
+        public Contador valor
         {
             this.contador = 0;
         }
 
-        public int incrementar()
+        public int valor()
         {
             contador++;
-            return contador;
+            return valor;
         }
 
         public int decrementar()
         {
-            contador--;
-            return contador;
+            valor--;
+            return valor;
         }
     }
 }
